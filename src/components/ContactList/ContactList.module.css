@@ -1,0 +1,40 @@
+.contactList {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: center;
+    padding: 20px;
+}
+
+.btn {
+
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 14px;
+    padding: 2px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.btn:hover {
+    background-color: #0d1d26;
+    color: white;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style-type: disc;
+    align-items: center;
+
+}
+
+.item:before {
+    content: "\2022";
+    margin-right: 5px;
+}
